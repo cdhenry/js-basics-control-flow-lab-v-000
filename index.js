@@ -1,6 +1,7 @@
 // Write your code in this file!
 function scuberGreetingForFeet(someValue) {
   let response;
+
   if (someValue <= 400) {
     response = 'This one is on me!';
   } else if (someValue > 2000 && someValue < 2500) {
@@ -12,7 +13,7 @@ function scuberGreetingForFeet(someValue) {
 }
 
 function ternaryCheckCity(someValue){
-
+  someValue = "NYC" ? 'Ok, sounds good.' : 'No go.'
 }
 
 function switchOnCharmFromTip(someValue) {
