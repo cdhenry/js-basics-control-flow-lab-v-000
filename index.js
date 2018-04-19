@@ -4,11 +4,9 @@ function scuberGreetingForFeet(someValue) {
     'This one is on me!'
   } else if () {
     'I will gladly take your thirty bucks.'
-  }
-  else {
+  } else {
     'No can do.'
   }
-  end
 }
 
 function ternaryCheckCity(someValue){
