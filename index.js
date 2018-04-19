@@ -19,13 +19,17 @@ function ternaryCheckCity(someValue){
 
 function switchOnCharmFromTip(someValue) {
   let response;
-  
-  switch someValue{
-    case : 
+
+  switch (someValue) {
+    case : "generous"
       response = 'Thank you so much.';
-    case : 
+      break;
+    case : "not as generous"
       response = 'Thank you.';
-    case : 
+      break;
+    default :
       response = 'Bye.';
   }
+
+  return response;
 }
